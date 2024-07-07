@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -79,4 +80,63 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
+}
+
+/* wlc  */
+
+.wlc-section {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url(../images/Vectorrr.png);
+    max-width: 1320px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.wlc-section .wlc-content {
+    display: flex;
+    height: 600px;
+    width: 1320px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wlc-content .wlc-text {
+    color: #fff;
+    width: 60%;
+    margin-left: 126px;
+}
+
+.wlc-content .wlc-text h1 {
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.wlc-content .wlc-text p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.wlc-content .wlc-text button {
+    background-color: transparent;
+    color: #fff;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+
+.wlc-content .wlc-img {
+    color: #fff;
+    width: 40%;
+    margin-left: 60px;
 }
