@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -12,9 +13,9 @@ body{
 
 .banner-container {
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
-    background: 
     width: 1320px;
     height: 600px;
+    border-radius: 16px;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
@@ -39,4 +40,43 @@ body{
     font-size: 72px;
     font-weight: 900;
     text-align: center;
+}
+
+.main-section {
+    margin-top: 120px;
+}
+
+.main-section .offer-section {
+
+}
+
+.main-section .offer-section h1 {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 48px;
+}
+.main-section .offer-section p {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 16px;
+}
+.main-section .offer-section h3 {
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 48px;
+}
+
+.main-section .offer-section .offer-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
 }
