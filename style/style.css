@@ -45,6 +45,7 @@ body{
 
 .main-section {
     margin-top: 120px;
+    width: 1320px;
 }
 
 .main-section .offer-section h1 {
@@ -462,10 +463,10 @@ body{
 }
 
 .footer .footer-content {
-    width: 1600px;
+    width: 1320px;
     height: 370px;
     display: flex;
-    margin: 120px 120px 120px 140px;
+    margin: auto;
     justify-content: space-between;
 }
 
